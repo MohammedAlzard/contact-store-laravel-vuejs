@@ -1,6 +1,6 @@
-#Contact Store App
+# Contact Store
 
-This is a contact store app create with PHP Laravel and VueJS
+This is a contact store app create with PHP Laravel in backend and use VueJS for the frontend. The middleware is a REST API.
 
 ## Screenshot
 
