@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use App\Contact;
 
 Route::group(['middleware' => 'api'], function(){
+  
   // Fetch Contacts
   Route::get('contacts', function(){
     return Contact::latest()->orderBy('created_at', 'desc')->get();
@@ -18,11 +19,7 @@ Route::group(['middleware' => 'api'], function(){
   Route::post('contact/store', function(Request $request){
     return Contact::create(['name' => $request->input(['name']), 'email' => $request->input(['email']), 'phone' => $request->input(['phone'])]);
   });
-
-  Route::post('patient/store', function(Request $request) {
-        return Patient::create(['name' => $request->input(['name']), 'email' => $request->input(['email']),'phone' => $request->input(['phone']) ]);
-    });
-
+  
   // Update Contact
   Route::patch('contact/{id}', function(Request $request, $id){
     Contact::findOrFail($id)->update(['name' => $request->input(['name']), 'email' => $request->input(['email']), 'phone' => $request->input(['phone'])]);
