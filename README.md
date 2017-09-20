@@ -24,6 +24,16 @@ Build Frontend
 npm run watch
 ```
 
+Configurate
+
+```
+cp .env.example .env
+```
+
+```
+php artisan key:generate
+```
+
 Run Backend with artisan 
 
 ```
