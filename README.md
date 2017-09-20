@@ -8,10 +8,20 @@ This is a contact store app create with PHP Laravel in backend and use VueJS for
 
 ## Run the Application
 
-Install all node_modules
+Install all dependencies
+
+```
+composer install
+```
 
 ```
 npm install
+```
+
+Build Frontend  
+
+```
+npm run watch
 ```
 
 Run Backend with artisan 
@@ -20,11 +30,7 @@ Run Backend with artisan
 php artisan serve
 ```
 
-Build Frontend  
 
-```
-npm run watch
-```
 
 ## Built With
 
