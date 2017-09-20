@@ -18,7 +18,7 @@ composer install
 npm install
 ```
 
-Build Frontend  
+Build JS files
 
 ```
 npm run dev
@@ -34,7 +34,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-Run Backend with artisan 
+Run server 
 
 ```
 php artisan serve
