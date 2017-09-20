@@ -30,6 +30,10 @@ Configurate
 cp .env.example .env
 ```
 
+Set DB_CONNECTION=sqlite 
+
+Create in database folder database.sqlite file
+
 ```
 php artisan key:generate
 ```
