@@ -8,7 +8,7 @@ This is a contact store app create with PHP Laravel in backend and use VueJS for
 
 ## Run the Application
 
-Install all dependencies
+#### Install all dependencies
 
 ```
 composer install
@@ -44,7 +44,7 @@ Create database file in database folder
 php artisan key:generate
 ```
 
-Run server 
+#### Run server 
 
 ```
 php artisan serve
