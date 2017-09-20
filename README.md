@@ -24,8 +24,9 @@ Build JS files
 npm run dev
 ```
 
-Configurate
+#### Configurate
 
+Run in terminal
 ```
 cp .env.example .env
 ```
