@@ -21,7 +21,7 @@ npm install
 Build Frontend  
 
 ```
-npm run watch
+npm run dev
 ```
 
 Configurate
