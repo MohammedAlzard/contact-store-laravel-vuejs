@@ -37,7 +37,7 @@ Set Database Connection in .env
 DB_CONNECTION=sqlite 
 ```
 
-Create database file in database folder
+*Create database file in database folder
 
 
 ```
